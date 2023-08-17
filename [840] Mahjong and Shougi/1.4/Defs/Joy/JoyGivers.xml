@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<JoyGiverDef>
+	<defName>ShougiGame</defName>
+	<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+	<baseChance>2</baseChance>
+	<thingDefs>
+		<li>GHG_ShougiTable</li>
+	</thingDefs>
+	<jobDef>Play_Shougi</jobDef>
+	<joyKind>Gaming_Cerebral</joyKind>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+</JoyGiverDef>
+
+<JoyGiverDef>
+	<defName>MahjongGame</defName>
+	<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+	<baseChance>4</baseChance>
+	<thingDefs>
+		<li>GHG_MahjongTable</li>
+	</thingDefs>
+	<jobDef>Play_Mahjong</jobDef>
+	<joyKind>Gaming_Cerebral</joyKind>
+	<requiredCapacities>
+		<li>Sight</li>
+		<li>Manipulation</li>
+	</requiredCapacities>
+</JoyGiverDef>
+
+</Defs>
