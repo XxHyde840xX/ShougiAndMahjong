@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
 
 <JobDef>
@@ -6,7 +7,7 @@
 	<driverClass>JobDriver_SitFacingBuilding</driverClass>
 	<reportString>playing shougi.</reportString>
 	<joyDuration>4000</joyDuration>
-	<joyMaxParticipants>4</joyMaxParticipants>
+	<joyMaxParticipants>2</joyMaxParticipants>
 	<joyGainRate>1</joyGainRate>
 	<joySkill>Intellectual</joySkill>
 	<joyXpPerTick>0.002</joyXpPerTick>
@@ -18,7 +19,7 @@
 <JobDef>
 	<defName>Play_Mahjong</defName>
 	<driverClass>JobDriver_SitFacingBuilding</driverClass>
-	<reportString>building mahjong.</reportString>
+	<reportString>playing mahjong.</reportString>
 	<joyDuration>4000</joyDuration>
 	<joyMaxParticipants>4</joyMaxParticipants>
 	<joyGainRate>1</joyGainRate>
