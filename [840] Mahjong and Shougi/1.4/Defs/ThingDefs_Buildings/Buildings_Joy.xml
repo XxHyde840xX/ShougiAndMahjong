@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
 
 	<ThingDef ParentName="FurnitureWithQualityBase"><!-- 将棋盤 -->
-		<defName>GHG_ShougiTable</defName>
+		<defName>840_ShougiTable</defName>
 		<label>shougi table</label>
 		<description>Shougi table.\nThis building requires adjacent chairs or stools to use.</description>
 	<graphicData>
@@ -52,7 +53,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="FurnitureWithQualityBase"><!-- 雀卓 -->
-		<defName>GHG_MahjongTable</defName>
+		<defName>840_MahjongTable</defName>
 		<label>mahjong table</label>
 		<description>Table for mahjong.\n\nThis building requires adjacent chairs or stools to use.</description>
 	<graphicData>
@@ -104,4 +105,5 @@
 	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	<uiIconScale>0.9</uiIconScale>
 </ThingDef>
+
 </Defs>

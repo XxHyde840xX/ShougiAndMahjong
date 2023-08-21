@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <ModMetaData>
 	<name>Gokusotsu Shougi and Mahjong</name>
 	<author>XxHyde840xX/muri</author>
 	<packageId>840.muri.mahjong.shougi</packageId>
-<supportedVersions>
-	<li>1.4</li>
-</supportedVersions>
-<modDependencies>
-</modDependencies>
-<loadAfter>
-</loadAfter>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<incompatibleWith>
+		<li>muri.gokusotsu</li>
+	</incompatibleWith>
 <description>Shougi and Mahjong recreation objects as well as the snowmen spun out from the Gokusotsu the Hell Guard Mod, located at: https://steamcommunity.com/sharedfiles/filedetails/?id=2892925626. All credit to muri, I just yanked the recreation objects and snowmen.</description>
 </ModMetaData>
